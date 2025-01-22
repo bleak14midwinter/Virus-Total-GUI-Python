@@ -24,4 +24,6 @@ The code is heavily documented and explains a lot of software engineering concep
 2) CD into the virusTotal-ui-python folder 
 3) Type `pip install -r requirements.txt`
 4) inside `confing.ini` file, place an API key. you first have to log in to virus total and generate one (https://support.virustotal.com/hc/en-us/articles/115002100149-API)
-4) Type `python Main.py`
+5) python -m pip install --upgrade --user urllib3
+6) python -m pip install --upgrade --user six
+7) Type `python Main.py`
